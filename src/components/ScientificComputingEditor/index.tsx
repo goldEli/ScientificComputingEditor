@@ -23,38 +23,7 @@ const ScientificComputingEditor: React.FC<ScientificComputingEditorProps> = (
               [/\[[a-zA-Z 0-9:]+\]/, "custom-date"],
               [/eval/, "custom-date"]
             ]
-          },
-          keywords: [
-            "abstract",
-            "continue",
-            "for",
-            "new",
-            "switch",
-            "assert",
-            "goto",
-            "do",
-            "if",
-            "private",
-            "this",
-            "break",
-            "protected",
-            "throw",
-            "else",
-            "public",
-            "enum",
-            "return",
-            "catch",
-            "try",
-            "interface",
-            "static",
-            "class",
-            "finally",
-            "const",
-            "super",
-            "while",
-            "true",
-            "false"
-          ]
+          }
         });
 
         // Define a new theme that contains only rules that match this language
